@@ -9,6 +9,9 @@ gem 'sqlite3'
 
 gem 'therubyracer'
 gem 'devise'
+#gem 'ruby-debug-base19', "0.11.24"
+#gem 'ruby-debug19', "0.11.6"
+
 
 # Gems used only for assets and not required
 # in production environments by default.

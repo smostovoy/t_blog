@@ -17,7 +17,7 @@ ActiveRecord::Schema.define(:version => 20111109120323) do
     t.string   "name"
     t.string   "title"
     t.text     "content"
-    t.boolean  "public"
+    t.boolean  "is_public"
     t.datetime "created_at"
     t.datetime "updated_at"
     t.integer  "user_id"

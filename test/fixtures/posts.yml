@@ -4,10 +4,10 @@ one:
   name: MyString
   title: MyString
   content: MyText
-  public: false
+  is_public: false
 
 two:
   name: MyString
   title: MyString
   content: MyText
-  public: false
+  is_public: false

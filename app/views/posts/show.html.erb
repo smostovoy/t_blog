@@ -12,12 +12,14 @@
 
 <p>
   <b>Content:</b>
-  <%= @post.content %>
+  <div id="post_content">
+    <%= h_with_replace(@post.content) %>
+  </div>
 </p>
 
 <p>
-  <b>Public:</b>
-  <%= @post.public %>
+  <b>Is public:</b>
+  <%= @post.is_public %>
 </p>
 
 
